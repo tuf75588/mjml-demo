@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "mjml index.mjml -o output.html"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "dependencies": {
     "mjml": "^4.10.2",
     "webpack": "^5.46.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2"
   }
 }
